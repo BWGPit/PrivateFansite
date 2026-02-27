@@ -1,0 +1,39 @@
+body {
+    background-image: linear-gradient(to bottom, white, #ef87b5, #06bded, #c3d773);
+    background-repeat: no-repeat;
+    height: 100dvh;
+}
+
+h1 {
+    color: rgb(7, 108, 175);
+    text-align: center;
+    align-items: center;
+}
+
+img {
+    height: 40dvh;
+}
+
+video {
+    height: 40dvh;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.pics {
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    white-space: nowrap;
+    padding-top: 5dvh;
+}
+
+.vids {
+    padding-top: 5dvh;
+}
+
+.content {
+    padding-left: 10dvw;
+    padding-right: 10dvw;
+}
