@@ -2,3 +2,4 @@ Media/
 map.json
 .env
 .htaccess
+__pycache__/

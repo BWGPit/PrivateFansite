@@ -5,7 +5,7 @@ import os
 import json
 import time
 
-print(f"[{time.time()}] Up and running")
+print(f"[{time.time()}] Daemon up and running")
 while True:
     with open("map.json", "r+") as f:
         data = json.load(f)
