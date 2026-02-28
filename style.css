@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(to bottom, white, #ef87b5, #06bded, #c3d773);
     background-repeat: no-repeat;
-    height: 100dvh;
+    height: 100%;
 }
 
 h1 {
@@ -30,10 +30,23 @@ img {
 }
 
 .vids {
+    overflow-x: scroll;
+    scroll-snap-type: mandatory;
+    white-space: nowrap;
     padding-top: 5dvh;
 }
 
 .content {
     padding-left: 10dvw;
     padding-right: 10dvw;
+    padding-bottom: 5dvh;
+}
+
+.credits {
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
+    background-image: linear-gradient(to right, white, #ef87b5, #06bded, #c3d773);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
