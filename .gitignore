@@ -3,3 +3,4 @@ map.json
 .env
 .htaccess
 __pycache__/
+.cookies.txt
